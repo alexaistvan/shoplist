@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shoppinglist</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="shopping-app">
+        <h2>Bevásárló lista <img src="/imgs/cart.png" alt="cart" /></h2>
+        <div class="row">
+          <input
+            type="text"
+            placeholder="Adj hozzá egy terméket"
+            id="input-box"
+          />
+          <button onclick="addTask()" id="btn">Hozzáadás</button>
+        </div>
+        <ul id="list-container"></ul>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
